@@ -1,0 +1,102 @@
+
+
+.wrapper{
+    width: 1170px;
+    margin: 2% auto;
+    margin-top:8%;
+}
+
+
+.section-header{
+   
+    margin-bottom: 50px;
+    margin-left: 33.5%;
+   
+}
+
+.section-header h2{
+    text-transform: uppercase;
+    margin: 0;
+    color: black;
+    font-size: 45px;
+    letter-spacing: 5px;
+    
+}
+
+.service{
+    width: 29%;
+    height: auto;
+    float: left;
+    box-shadow: 5px 5px 15px #000;
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+    margin: 0 17px;
+    margin-bottom: 15%;
+    object-position: center;
+}
+
+.service img{
+    width: 100%;
+}
+
+.service h3{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+a{
+    color: black;
+}
+
+.service:hover{
+    transform: scale(1.1);
+}
+
+/*Border Animation*/
+ 
+.service:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    height: 4px;
+    width: 100%;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(100%);
+}
+
+.service:after{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 4px;
+    width: 100%;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+    box-sizing: border-box;
+    transform: translateX(-100%);
+}
+
+.service:hover:before{
+    border-color: black;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+
+.service:hover:after{
+    border-color: black;
+    height: 100%;
+    transform: translateX(0);
+    transition: .3s transform linear, .3s height linear .3s;
+}
+

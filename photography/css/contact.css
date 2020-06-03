@@ -1,0 +1,25 @@
+.contact p{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.contact a{
+    color: #2C2C2C;
+    text-decoration: none;
+    text-align: center;
+}
+
+.clearfix{
+    clear: both;
+    height: 3%;
+}
+
+footer.second{
+    background-color: #2C2C2C;
+    width: 100%;
+}
+footer.second p{
+    color: #FFF;
+    text-align: center;
+    padding: 1%;
+}

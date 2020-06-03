@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700;800&display=swap');
+@import url("css/colorbox.css");
+@import url("css/nav.css");
+@import url("css/intro.css");
+@import url("css/about.css");
+@import url("css/portrait-gallery.css");
+@import url("css/family-gallery.css");
+@import url("css/kid-gallery.css");
+@import url("css/contact.css");
+@import url("css/services.css");
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+   
+
+    .inner{
+        font-size: 120%;
+    }
+    .content{
+        margin-left: 10%;
+    }
+    .content h2 {
+        font-size: 300%;
+        margin-left: 10%;
+    }
+    .content p{
+        font-size: 150%;
+        margin-left: 10%;
+        margin-top: 0;
+        margin-bottom: 50%;
+    }
+    .left-col{
+        width: 90%;
+        margin-left: 5%;
+        padding: 0 2%
+    }
+    .sidebar{
+        width: 85%;
+        margin-left: 7%
+    }
+    img{
+        padding: 2%;
+    }
+    .one-third-gallery{
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .service{
+        text-align: center;
+        max-width: 100%;
+        height: 100%;
+        width: auto;
+    }
+    .section-header h2{
+        font-size: 25px;
+        margin-left: -9%;
+    }
+    
+    .wrapper{
+        width: auto;
+        margin: auto;
+    }
+    
+    .contact p a{ 
+        font-size: 80%;
+    }
+    .intro .content video{
+        width: 100%;
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
