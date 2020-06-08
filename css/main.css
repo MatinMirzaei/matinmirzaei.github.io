@@ -274,6 +274,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
+    margin-left: -10%;
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
